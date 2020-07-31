@@ -12,7 +12,7 @@ We are not responsible for what you do with this utility.<br>
 • <code>git clone https://github.com/Mr-X-01/Bomber</code><br>
 • <code>sh ~/Bomber/install.sh</code><br>
 
-<b>If you have IOS</a> - download <a href="https://apps.apple.com/ru/app/testflight/id899247664">Testflight from App Store</a>, and then join testing <a href="https://testflight.apple.com/">iSH in Testflight</a> and write the commands below:
+<b>If you have IOS</a> - download <a href="https://apps.apple.com/ru/app/testflight/id899247664">Testflight from App Store</a>, and then join testing <a href="https://testflight.apple.com/">iSH in Testflight</a> and write the commands below:<br>
 • <code>apk update</code><br>
 • <code>apk upgrade</code><br>
 • <code>apk add git</code><br>
