@@ -22,7 +22,7 @@ There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a>
 • <code>apk upgrade</code><br>
 • <code>apk add git</code><br>
 • <code>git clone https://github.com/Mr-X-01/Bomber</code><br>
-• <code>sh ~/spymer/install.sh</code><br>
+• <code>sh ~/Bomber/install.sh</code><br>
 • <code>spymer</code><br>
 # How to start?
 • <code>Bomber</code><br>
