@@ -24,6 +24,5 @@ There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a>
 • <code>git clone https://github.com/Mr-X-01/Bomber</code><br>
 • <code>sh ~/spymer/install.sh</code><br>
 • <code>spymer</code><br>
-<br>
 # How to start?
 • <code>python3 /Bomber/spammer.py</code><br>
