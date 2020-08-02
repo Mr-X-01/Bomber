@@ -25,4 +25,4 @@ There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a>
 • <code>sh ~/spymer/install.sh</code><br>
 • <code>spymer</code><br>
 # How to start?
-• <code>Bomber/code><br>
+• <code>Bomber</code><br>
