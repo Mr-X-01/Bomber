@@ -13,6 +13,7 @@ There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a>
 <b>If you have Android - download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=ru">Termux from Google Play</a> and open it and write the commands below:<br>
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
+• <code>apt install python</code><br>
 • <code>apt install git</code><br>
 • <code>git clone https://github.com/Mr-X-01/Bomber</code><br>
 • <code>sh ~/Bomber/install.sh</code><br>
@@ -20,6 +21,7 @@ There will be questions - Telegram: <a href="https://t.me/Mrxanon"> @Mrxanon</a>
 <b>If you have IOS</a> - download <a href="https://apps.apple.com/ru/app/testflight/id899247664">Testflight from App Store</a>, and then join testing <a href="https://testflight.apple.com/">iSH in Testflight</a> and write the commands below:<br>
 • <code>apk update</code><br>
 • <code>apk upgrade</code><br>
+• <code>apt add python</code><br>
 • <code>apk add git</code><br>
 • <code>git clone https://github.com/Mr-X-01/Bomber</code><br>
 • <code>sh ~/Bomber/install.sh</code><br>
