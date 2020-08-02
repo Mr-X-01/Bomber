@@ -832,7 +832,7 @@ def MAIN():
 					print(info)
 					print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
 					print("1) SMS Spammer.")
-					print("2) Update proxy.")
+					print("2) Update Proxy.")
 					print("3) Update Spammer.")
 					print("4) Exit.")
 					input1 = input(Fore.BLUE+"Enter the number: "+Style.RESET_ALL)
