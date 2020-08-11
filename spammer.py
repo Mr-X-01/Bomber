@@ -714,10 +714,10 @@ def MAIN():
 					prox = input(Fore.BLUE+"Bomber > "+Style.RESET_ALL)
 					if prox[:5]=="https":
 						ssl="https"
-						proxy=prox[8:]
+						proxy=prox[:]
 					elif prox[:5]=="http:":
 						ssl="http"
-						proxy=prox[7:]
+						proxy=prox[:]
 					else:
 						info = Fore.RED+"\nData entered incorrectly!"+Style.RESET_ALL
 						proxy = "localhost"
