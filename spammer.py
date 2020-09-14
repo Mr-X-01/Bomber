@@ -713,7 +713,7 @@ def MAIN():
 					print ("Example: "+Fore.GREEN+"https://123.45.6.78:8080"+Style.RESET_ALL)
 					print ("To cancel press Ctrl+C")
 					prox = input(Fore.BLUE+"Bomber > "+Style.RESET_ALL)
-					if prox[:5]=="https":
+					f prox[:5]=="https":
 						ssl="https"
 						proxy=prox[8:]
 					elif prox[:5]=="http:":
@@ -738,9 +738,9 @@ def MAIN():
 				global phone
 				if phone[0] == '+':
 					phone = phone[1:]
-				if phone[0] == '8':
+				elif phone[0] == '8':
 					phone = '7'+phone[1:]
-				if phone[0] == '9':
+				elif phone[0] == '9':
 					phone = '7'+phone
 
 			def addparams():
