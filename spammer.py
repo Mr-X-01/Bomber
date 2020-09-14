@@ -714,8 +714,10 @@ def MAIN():
 					prox = input(Fore.BLUE+"Bomber > "+Style.RESET_ALL)
 					if prox[:5]=="https":
 						ssl="https"
+						proxy=prox[8:]
 					elif prox[:5]=="http:":
 						ssl="http"
+						proxy=prox[7:]
 					else:
 						info = Fore.RED+"\nData entered incorrectly!"+Style.RESET_ALL
 						proxy = "localhost"
@@ -733,6 +735,12 @@ def MAIN():
 
 			def make7phone():
 				global phone
+				if phone[0] == '+':
+					phone = phone[1:]
+				if phone[0] == '8':
+					phone = phone[1:]
+				if phone[0] == '9':
+					phone = phone
 
 			def addparams():
 				global name
@@ -864,3 +872,4 @@ def MAIN():
 
 		Main()
 MAIN()
+
