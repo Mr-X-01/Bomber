@@ -15,10 +15,10 @@ then
 	pkg install python
 	pkg install dos2unix
 	pip install requests colorama proxyscrape
-	cp ~/Bomber/spammer.py /data/data/com.termux/files/usr/bin/Bomber
-	dos2unix /data/data/com.termux/files/usr/bin/Bomber
+	cp ~/Bomber/spammer.py $PREFIX/binBomber
+	dos2unix $PREFIX/bin/Bomber
 	chmod -R 777 ~/Bomber
-	chmod 777 /data/data/com.termux/files/usr/bin/Bomber
+	chmod 777 $PREFIX/bin/Bomber
 	Bomber
 else
 	if [ $numb = "2" ]
@@ -30,9 +30,9 @@ else
 		else
 			apt install python3 python3-pip dos2unix
 			pip3 install requests colorama proxyscrape
-			cp ~/Bomber/spammer.py /usr/bin/Bomber
-			dos2unix /usr/bin/Bomber
-			chmod 777 /usr/bin/Bomber
+			cp ~/Bomber/spammer.py $PREFIX/bin/Bomber
+			dos2unix $PREFIX/bin/Bomber
+			chmod 777 $PREFIX/bin/Bomber
 			chmod -R 777 ~/Bomber
 			Bomber
 		fi
