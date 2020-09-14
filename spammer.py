@@ -733,12 +733,6 @@ def MAIN():
 
 			def make7phone():
 				global phone
-				if phone[0] == '+':
-					phone = phone[1:]
-				if phone[0] == '8':
-					phone = '7'+phone[1:]
-				if phone[0] == '9':
-					phone = '7'+phone
 
 			def addparams():
 				global name
